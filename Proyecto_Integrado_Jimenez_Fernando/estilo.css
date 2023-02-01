@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(250, 247, 247);
+}
+
+
+.foto_de_perfil{
+  float: left;
+  width: 26%;
+  height: 380px; /* only for demonstration, should be removed */
+  background:rgba(156, 12, 84, 0.884);
+  padding: 25px;
+}
+
+
+
+.Nombres{
+  float: right;
+  border-left: 1px;
+  width: 66%;
+  height: 380px; /* only for demonstration, should be removed */
+  background: rgb(255, 154, 59);
+  padding: 25px;
+  font-family: 'Aboreto', cursive;
+}
+
+.info{
+    
+margin-left: 30px;
+margin-top: 30px;
+font-family:'Nunito', sans-serif;
+font-size: x-large;
+
+}
+.contenido {
+    font-family:'Nunito', sans-serif
+
+  }
