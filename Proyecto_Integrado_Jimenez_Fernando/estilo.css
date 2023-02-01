@@ -1,15 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+background-image: url ("https://img2.freepng.es/20181026/zwp/kisspng-desktop-wallpaper-portable-network-graphics-graphi-rewards-and-recognition-background-3-92-timehd-5bd36f8fef20b7.3084627815405833119795.jpg");
+}
+.head {
+
+
+}
+
+.header_nav h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Aboreto', cursive;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px 0;
+    letter-spacing: 2px;
+    float: right;
+    margin-right: 0px;
+    margin: top 0;
+    width:65%;
+    height: 320px;
+    background:rgba(250, 214, 11, 0.815);
+}
+.header_nav h2 {
+    color: rgb(0,0,0);
+    font-family: 'Aboreto', cursive;
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    padding: 0px 0;
+    letter-spacing: 2px;
+    float: right;
+    margin-right: 0px;
+    margin: top 0;
+    width:65%;
+    height: 180px;
+    background:rgba(250, 214, 11, 0.815);
+}
+    .foto_de_perfil  {
+    width: 35%;
+    height: 500px; 
+    background:rgba(250, 214, 11, 0.815);
+    padding-top: 90px;
+    padding-left: 10px;
+    border-radius: 0px;
+    margin: top 0;
+  }
+
+
+
+.boton {
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 171, 21);
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.1s;
+    opacity: 100%;
+    font-family:'Nunito', sans-serif;
+}
+.boton:hover{
+    background:rgba(0, 0, 0, 0.815);
+    box-shadow: 0 0 10px #180d00, 0 0 40px #180d00, 0 0 80px #180d00;
+    transition-delay: 0.1s;
+ } 
+
 body{
-    background-color: rgb(250, 247, 247);
-}
+    
 
 
-.foto_de_perfil{
-  float: left;
-  width: 26%;
-  height: 380px; /* only for demonstration, should be removed */
-  background:rgba(156, 12, 84, 0.884);
-  padding: 25px;
-}
+
+        }
+
+
 
 
 
@@ -18,7 +87,7 @@ body{
   border-left: 1px;
   width: 66%;
   height: 380px; /* only for demonstration, should be removed */
-  background: rgb(255, 154, 59);
+ 
   padding: 25px;
   font-family: 'Aboreto', cursive;
 }
