@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box ;
-background-image: url ("https://img2.freepng.es/20181026/zwp/kisspng-desktop-wallpaper-portable-network-graphics-graphi-rewards-and-recognition-background-3-92-timehd-5bd36f8fef20b7.3084627815405833119795.jpg");
 }
 .head {
 
@@ -21,7 +20,7 @@ background-image: url ("https://img2.freepng.es/20181026/zwp/kisspng-desktop-wal
     margin-right: 0px;
     margin: top 0;
     width:65%;
-    height: 320px;
+    height: 280px;
     background:rgba(250, 214, 11, 0.815);
 }
 .header_nav h2 {
@@ -36,51 +35,40 @@ background-image: url ("https://img2.freepng.es/20181026/zwp/kisspng-desktop-wal
     margin-right: 0px;
     margin: top 0;
     width:65%;
-    height: 180px;
+    height: 130px;
     background:rgba(250, 214, 11, 0.815);
 }
     .foto_de_perfil  {
     width: 35%;
-    height: 500px; 
+    height: 410px; 
     background:rgba(250, 214, 11, 0.815);
-    padding-top: 90px;
+    padding-top: 40px;
     padding-left: 10px;
-    border-radius: 0px;
+    border-left: 1px;
     margin: top 0;
   }
 
 
 
 .boton {
-    position: relative;
-    display: inline-block;
-    padding: 10px 10px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(197, 171, 21);
+    position:relative;
+    display:flexbox;
+    padding: 8px 8px;
+    color: rgb(238, 235, 235);
+    background-color: rgb(0, 0, 0);
     letter-spacing: 2px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
     overflow: hidden;
     transition: 0.1s;
-    opacity: 100%;
-    font-family:'Nunito', sans-serif;
+    font-family: 'Aboreto', cursive;
+    border-bottom: darkgoldenrod;
 }
 .boton:hover{
-    background:rgba(0, 0, 0, 0.815);
-    box-shadow: 0 0 10px #180d00, 0 0 40px #180d00, 0 0 80px #180d00;
+    background:rgba(179, 167, 10, 0.815);
+    box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
     transition-delay: 0.1s;
  } 
-
-body{
-    
-
-
-
-        }
-
-
-
-
 
 .Nombres{
   float: right;
@@ -92,15 +80,39 @@ body{
   font-family: 'Aboreto', cursive;
 }
 
-.info{
+section{
+
+border-color: #000000;
+border-style: solid;
+border-radius: 20px;
+margin: 10px;
+position: absolute;
+}
+
+
+section h2 {
     
-margin-left: 30px;
-margin-top: 50px;
+margin-left: 100px;
+margin-top: 45px;
 font-family:'Nunito', sans-serif;
-font-size: x-large;
+font-size: 30px;
 
 }
-.contenido {
-    font-family:'Nunito', sans-serif
 
+section h3 {
+    
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family:'Nunito', sans-serif;
+    font-size: 24px;
+    
+    }
+section p {
+    font-family:'Nunito', sans-serif;
+    padding: 80px,80px;
+    margin-top:25px;
+    margin-bottom: 15px;
+    margin-left:40px;
+    letter-spacing: 1px;
+    font-size: 22px;
   }
