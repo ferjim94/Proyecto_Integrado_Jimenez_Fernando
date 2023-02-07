@@ -65,7 +65,7 @@
     border-bottom: darkgoldenrod;
 }
 .boton:hover{
-    background:rgba(179, 167, 10, 0.815);
+    background:rgba(207, 194, 11, 0.815);
     box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
     transition-delay: 0.1s;
  } 
@@ -80,15 +80,90 @@
   font-family: 'Aboreto', cursive;
 }
 
-section{
+.dp {
 
 border-color: #000000;
 border-style: solid;
 border-radius: 20px;
 margin: 10px;
 position: absolute;
+visibility:visible;
+padding: 30px;
+background:rgba(236, 236, 236, 0.815);
+box-shadow: 0 0 3px #000000, 0 0 20px #000000, 0 0 40px #000000;
+transition-delay: 0.1s;
+
 }
 
+.pp {
+
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    position: absolute;
+    visibility:hidden;
+    padding: 30px;
+    background:rgba(236, 236, 236, 0.815);
+box-shadow: 0 0 3px #000000, 0 0 20px #000000, 0 0 40px #000000;
+transition-delay: 0.1s;
+    }
+
+.fa {
+
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    position: absolute;
+    visibility:hidden;
+    padding: 30px;
+    background:rgba(236, 236, 236, 0.815);
+box-shadow: 0 0 3px #000000, 0 0 20px #000000, 0 0 40px #000000;
+transition-delay: 0.1s;
+    }
+
+    .hb {
+
+        border-color: #000000;
+        border-style: solid;
+        border-radius: 20px;
+        margin: 10px;
+        position: absolute;
+        visibility:hidden;
+        padding: 30px;
+        background:rgba(236, 236, 236, 0.815);
+box-shadow: 0 0 3px #000000, 0 0 20px #000000, 0 0 40px #000000;
+transition-delay: 0.1s;
+        }
+
+    .el {
+
+        border-color: #000000;
+        border-style: solid;
+        border-radius: 20px;
+        margin: 10px;
+        position: absolute;
+        visibility:hidden;
+        padding: 30px;
+        background:rgba(236, 236, 236, 0.815);
+box-shadow: 0 0 3px #000000, 0 0 20px #000000, 0 0 40px #000000;
+transition-delay: 0.1s;
+        }
+
+        .cont {
+
+            border-color: #000000;
+            border-style: solid;
+            border-radius: 20px;
+            margin: 10px;
+            position: absolute;
+            visibility:hidden;
+            padding: 30px;
+            background:rgba(236, 236, 236, 0.815);
+    box-shadow: 0 0 3px #000000, 0 0 20px #000000, 0 0 40px #000000;
+    transition-delay: 0.1s;
+            }
 
 section h2 {
     
