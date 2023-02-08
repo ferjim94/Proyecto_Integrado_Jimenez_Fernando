@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing:border-box ;
 }
-.head {
-
-
-}
 
 .header_nav h1 {
     color: rgb(0, 0, 0);
@@ -74,7 +70,7 @@
   float: right;
   border-left: 1px;
   width: 66%;
-  height: 380px; /* only for demonstration, should be removed */
+  height: 380px; 
  
   padding: 25px;
   font-family: 'Aboreto', cursive;
